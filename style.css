@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Inter", sans-serif;
+}
+
+body {
+   background: linear-gradient(135deg, #F7F8FC, #DCE1EB);
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   width: 100%;
+}
+
+.input-container {
+   width: 100%;
+   max-width: 500px;
+   text-align: center;
+   padding: 20px;
+   background: #ffffff;
+   border-radius: 12px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container input {
+   border: 2px solid #CBD5E0;
+   outline: none;
+   padding: 12px;
+   margin-block: 12px;
+   font-size: 16px;
+   border-radius: 8px;
+   background: #F7FAFC;
+   transition: all 0.3s ease-in-out;
+}
+
+.input-container input:focus {
+   border-color: #4A90E2;
+   background: #ffffff;
+   box-shadow: 0 0 8px rgba(74, 144, 226, 0.3);
+}
+
+.input-container input[type="text"] {
+   width: 70%;
+}
+
+.Button {
+   background: linear-gradient(135deg, #4A90E2, #00C9A7);
+   color: white;
+   font-weight: 600;
+   margin-left: 8px;
+   cursor: pointer;
+   padding: 12px 24px;
+   border-radius: 8px;
+   border: none;
+   transition: all 0.3s ease;
+   font-size: 16px;
+}
+
+.Button:hover {
+   background: linear-gradient(135deg, #00C9A7, #4A90E2);
+   transform: scale(1.05);
+}
+
+ul {
+   width: 100%;
+   max-width: 450px;
+   margin-top: 20px;
+}
+
+ul li {
+   list-style-type: none;
+   cursor: pointer;
+   border-radius: 12px;
+   margin-block-end: 12px;
+   padding: 10px 16px;
+   background: #ffffff;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   transition: 0.3s;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ul li:hover {
+   background: #F0F4F8;
+   transform: scale(1.02);
+}
+
+ul li p {
+   flex-grow: 1;
+   font-weight: 500;
+   color: #333;
+   font-size: 16px;
+}
+
+.btn {
+   border: none;
+   outline: none;
+   font-size: 16px;
+   background: none;
+   font-weight: 600;
+   cursor: pointer;
+   padding: 8px;
+   border-radius: 6px;
+   transition: 0.3s;
+}
+
+.deleteBtn {
+   background: linear-gradient(135deg, #E63946, #D62828);
+   color: white;
+   padding: 8px 12px;
+   border: none;
+   font-size: 14px;
+}
+
+.deleteBtn:hover {
+   background: #FF6B6B;
+   transform: scale(1.05);
+}
+
+.editBtn {
+   background: linear-gradient(135deg, #1D3557, #457B9D);
+   color: white;
+   padding: 8px 12px;
+   border: none;
+   font-size: 14px;
+}
+
+.editBtn:hover {
+   background: #33b688;
+   transform: scale(1.05);
+}
